@@ -1,0 +1,219 @@
+*       *********************************************************
+*       *                                                         
+*       * 10/27/09              MENU1.MPR               17:14:01  
+*       *                                                         
+*       *********************************************************
+*       *                                                         
+*       * Nombre del autor                                        
+*       *                                                         
+*       * Copyright (C) 2009 Nombre de compañía                   
+*       * Dirección                                               
+*       * Ciudad,     Código pos                                  
+*       * País                                              
+*       *                                                         
+*       * Descripción:                                            
+*       * Este PROGRAMA lo ha generado automáticamente GENMENU.    
+*       *                                                         
+*       *********************************************************
+
+* To attach this menu to your Top-Level form, 
+* call it from the Init event of the form:
+
+* Syntax: DO <mprname> WITH <oFormRef> [,<cMenuname>|<lRename>][<lUniquePopups>]
+
+*	oFormRef - form object reference (THIS)
+*	cMenuname - name for menu (this is required for Append menus - see below)
+*	lRename - renames Name property of your form
+*	lUniquePopups - determines whether to generate unique ids for popup names
+			
+* 	example:
+
+*	PROCEDURE Init
+*		DO mymenu.mpr WITH THIS,.T.
+*	ENDPROC
+
+* Use the optional 2nd parameter if you plan on running multiple instances
+* of your Top-Level form. The preferred method is to create an empty string
+* variable and pass it by reference so you can receive the form name after
+* the MPR file is run. You can later use this reference to destroy the menu.
+
+*	PROCEDURE Init
+*		LOCAL cGetMenuName
+*		cGetMenuName = ""
+*		DO mymenu.mpr WITH THIS, m.cGetMenuName
+*	ENDPROC
+
+* The logical lRename parameter will change the name property of your 
+* form to the same name given the menu and may cause conflicts in your 
+* code if you directly reference the form by name.
+
+* You will also need to remove the menu when the form is destroyed so that it does 
+* not remain in memory unless you wish to reactivate it later in a new form.
+
+* If you passed the optional lRename parameter as .T. as in the above example, 
+* you can easily remove the menu in the form's Destroy event as shown below.
+* This strategy is ideal when using multiple instances of Top-Level forms.
+
+*	example:
+
+*	PROCEDURE Destroy
+*		RELEASE MENU (THIS.Name) EXTENDED
+*	ENDPROC
+
+* Using Append/Before/After location options:
+
+*   You might want to append a menu to an existing Top-Level form by setting 
+*   the Location option in the General Options dialog. In order to do this, you 
+*   must pass the name of the menu in which to attach the new one. The second
+*   parameter is required here. If you originally created the menu with the lRename 
+*   parameter = .T., then you can update the menu with code similar to the following:
+
+*	example:
+
+*	DO mymenu2.mpr WITH THISFORM,THISFORM.name
+*
+* Using lUniquePopups:
+
+*   If you are running this menu multiple times in your application, such as in multiple 
+*   instances of the same top-level form, you should pass .T. to the lUniquePopups 
+*   parameter so that unique popup names are generated to avoid possible conflicts.
+
+*	example:
+
+*	PROCEDURE Init
+*		DO mymenu.mpr WITH THIS,.T.,.T.
+*	ENDPROC
+*
+* Note: Parm4-Parm9 are not reserved and freely available for use with your menu code.
+*
+
+LPARAMETERS oFormRef, getMenuName, lUniquePopups, parm4, parm5, parm6, parm7, parm8, parm9
+LOCAL cMenuName, nTotPops, a_menupops, cTypeParm2, cSaveFormName
+IF TYPE("m.oFormRef") # "O" OR ;
+  LOWER(m.oFormRef.BaseClass) # 'form' OR ;
+  m.oFormRef.ShowWindow # 2
+	MESSAGEBOX([Sólo puede llamar a este menú desde un formulario de nivel superior.  Confirme que la propiedad ShowWindow del formulario es 2.  Más información en la sección de encabezado del archivo MPR del menú.])
+	RETURN
+ENDIF
+m.cTypeParm2 = TYPE("m.getMenuName")
+m.cMenuName = SYS(2015)
+m.cSaveFormName = m.oFormRef.Name
+IF m.cTypeParm2 = "C" OR (m.cTypeParm2 = "L" AND m.getMenuName)
+	m.oFormRef.Name = m.cMenuName
+ENDIF
+IF m.cTypeParm2 = "C" AND !EMPTY(m.getMenuName)
+	m.cMenuName = m.getMenuName
+ENDIF
+DIMENSION a_menupops[3]
+IF TYPE("m.lUniquePopups")="L" AND m.lUniquePopups
+	FOR nTotPops = 1 TO ALEN(a_menupops)
+		a_menupops[m.nTotPops]= SYS(2015)
+	ENDFOR
+ELSE
+	a_menupops[1]="maestras"
+	a_menupops[2]="caja"
+	a_menupops[3]="reportes"
+ENDIF
+
+
+*       *********************************************************
+*       *                                                         
+*       *                    Definición de menú                   
+*       *                                                         
+*       *********************************************************
+*
+
+DEFINE MENU (m.cMenuName) IN (m.oFormRef.Name) BAR
+
+DEFINE PAD _2s310xrjr OF (m.cMenuName) PROMPT "Maestras" COLOR SCHEME 3 ;
+	KEY ALT+M, ""
+DEFINE PAD _2s310xrjs OF (m.cMenuName) PROMPT "Caja" COLOR SCHEME 3 ;
+	KEY ALT+C, ""
+ON PAD _2s310xrjr OF (m.cMenuName) ACTIVATE POPUP (a_menupops[1])
+ON PAD _2s310xrjs OF (m.cMenuName) ACTIVATE POPUP (a_menupops[2])
+
+DEFINE POPUP (a_menupops[1]) MARGIN RELATIVE SHADOW COLOR SCHEME 4
+DEFINE BAR 1 OF (a_menupops[1]) PROMPT "Empresas"
+DEFINE BAR 2 OF (a_menupops[1]) PROMPT "Insumos, Servicios"
+DEFINE BAR 3 OF (a_menupops[1]) PROMPT "Trabajadores"
+DEFINE BAR 4 OF (a_menupops[1]) PROMPT "\-"
+DEFINE BAR 5 OF (a_menupops[1]) PROMPT "Salir"
+ON SELECTION BAR 1 OF (a_menupops[1]) ;
+	DO _2s310xrjt ;
+	IN LOCFILE("D:\NFOX\MENU1" ,"MPX;MPR|FXP;PRG" ,"DÓNDE está MENU1?")
+ON SELECTION BAR 2 OF (a_menupops[1]) ;
+	DO _2s310xrju ;
+	IN LOCFILE("D:\NFOX\MENU1" ,"MPX;MPR|FXP;PRG" ,"DÓNDE está MENU1?")
+ON SELECTION BAR 5 OF (a_menupops[1]) ;
+	DO _2s310xrjv ;
+	IN LOCFILE("D:\NFOX\MENU1" ,"MPX;MPR|FXP;PRG" ,"DÓNDE está MENU1?")
+
+DEFINE POPUP (a_menupops[2]) MARGIN RELATIVE SHADOW COLOR SCHEME 4
+DEFINE BAR 1 OF (a_menupops[2]) PROMPT "Movimientos"
+DEFINE BAR 2 OF (a_menupops[2]) PROMPT "\-"
+DEFINE BAR 3 OF (a_menupops[2]) PROMPT "Por liquidar"
+DEFINE BAR 4 OF (a_menupops[2]) PROMPT "Browser"
+DEFINE BAR 5 OF (a_menupops[2]) PROMPT "\-"
+DEFINE BAR 6 OF (a_menupops[2]) PROMPT "Reportes"
+ON BAR 6 OF (a_menupops[2]) ACTIVATE POPUP (a_menupops[3])
+
+DEFINE POPUP (a_menupops[3]) MARGIN RELATIVE SHADOW COLOR SCHEME 4
+DEFINE BAR 1 OF (a_menupops[3]) PROMPT "Detalle x Fecha"
+
+ACTIVATE MENU (m.cMenuName) NOWAIT
+
+IF m.cTypeParm2 = "C"
+	m.getMenuName = m.cMenuName
+	m.oFormRef.Name = m.cSaveFormName 
+ENDIF
+
+
+*       *********************************************************
+*       *                                                         
+*       * _2S310XRJT  ON SELECTION BAR 1 OF POPUP maestras        
+*       *                                                         
+*       * Procedure Origin:                                       
+*       *                                                         
+*       * From Menu:  MENU1.MPR,            Record:    5          
+*       * Called By:  ON SELECTION BAR 1 OF POPUP maestras        
+*       * Prompt:     Empresas                                    
+*       * Snippet:    1                                           
+*       *                                                         
+*       *********************************************************
+*
+PROCEDURE _2s310xrjt
+do form empresas
+
+
+*       *********************************************************
+*       *                                                         
+*       * _2S310XRJU  ON SELECTION BAR 2 OF POPUP maestras        
+*       *                                                         
+*       * Procedure Origin:                                       
+*       *                                                         
+*       * From Menu:  MENU1.MPR,            Record:    6          
+*       * Called By:  ON SELECTION BAR 2 OF POPUP maestras        
+*       * Prompt:     Insumos, Servicios                          
+*       * Snippet:    2                                           
+*       *                                                         
+*       *********************************************************
+*
+PROCEDURE _2s310xrju
+do form insumos
+
+
+*       *********************************************************
+*       *                                                         
+*       * _2S310XRJV  ON SELECTION BAR 5 OF POPUP maestras        
+*       *                                                         
+*       * Procedure Origin:                                       
+*       *                                                         
+*       * From Menu:  MENU1.MPR,            Record:   11          
+*       * Called By:  ON SELECTION BAR 5 OF POPUP maestras        
+*       * Prompt:     Salir                                       
+*       * Snippet:    3                                           
+*       *                                                         
+*       *********************************************************
+*
+*PROCEDURE _2s310xrjv
+Release Thisform

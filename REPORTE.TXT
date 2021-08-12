@@ -1,0 +1,116 @@
+|42|,|1|,|01|,|0001|,|BANCO CREDITO|,||,||,|20100047218|,|BANCO CREDITO|,|0001|,|AV. LA MOLINA|,||,||,||,|140110|,|6|
+|42|,|1|,|02|,|0002|,|CIRO|,|GONZALES|,||,||,|CIRO GONZALES|,|0002|,||,||,||,||,||,| |
+|42|,|1|,|03|,|0003|,|YOLANDA|,|CORIPACO|,||,||,|YOLANDA CORIPACO|,|0003|,||,||,||,||,||,| |
+|42|,|1|,|04|,|0004|,|HERNAN|,|LEON|,||,||,|HERNAN LEON|,|0004|,||,||,||,||,||,| |
+|42|,|1|,|05|,|0005|,|PEDRO|,|CASAS|,||,||,|PEDRO CASAS|,|0005|,||,||,||,||,||,| |
+|42|,|1|,|07|,|0007|,|RONALD|,|GUERRA|,||,||,|RONALD GUERRA|,|0007|,||,||,||,||,||,| |
+|42|,|1|,|08|,|0008|,|RITA|,|ESCOBAR|,||,||,|RITA ESCOBAR|,|0008|,||,||,||,||,||,| |
+|42|,|1|,|09|,|0009|,|HUGO|,|ANDRADE|,||,||,|HUGO ANDRADE|,|0009|,||,||,||,||,||,| |
+||,| |,||,||,|OTROS|,||,||,||,|OTROS|,|0010|,||,||,||,||,||,| |
+|42|,|1|,|10|,|0011|,|GRUPO|,|AGUIRRE|,||,||,|GRUPO AGUIRRE|,|0011|,||,||,||,||,||,| |
+|42|,|1|,|11|,|0012|,|GODOFREDO|,|TICONA|,|SANGUINEZ|,||,|GODOFREDO TICONA SANGUINEZ|,|0012|,||,||,||,||,||,| |
+||,| |,||,||,|MONTANA S.A.|,||,||,||,|MONTANA S.A.|,|0013|,||,||,||,||,||,| |
+||,| |,||,||,|ALLTECHNOLOGY PERU S.R.L.|,||,||,||,|ALLTECHNOLOGY PERU S.R.L.|,|0014|,||,||,||,||,||,| |
+||,| |,||,||,|EDGAR LAU|,||,||,||,|EDGAR LAU|,|0015|,||,||,||,||,||,| |
+||,| |,||,||,|AGROVET FARM S.A.|,||,||,||,|AGROVET FARM S.A.|,|0016|,||,||,||,||,||,| |
+||,| |,||,||,|AGROVET S.A.|,||,||,||,|AGROVET S.A.|,|0017|,||,||,||,||,||,| |
+||,| |,||,||,|CPHARMA S.A.C.|,||,||,||,|CPHARMA S.A.C.|,|0018|,||,||,||,||,||,| |
+||,| |,||,||,|INVERSIONES VETERINARIAS S.A.|,||,||,||,|INVERSIONES VETERINARIAS S.A.|,|0019|,||,||,||,||,||,| |
+||,| |,||,||,|CORPORACION DE CEREALES S.A.C.|,||,||,||,|CORPORACION DE CEREALES S.A.C.|,|0020|,||,||,||,||,||,| |
+||,| |,||,||,|PARTHEC INTERNATIONAL S.A.C.|,||,||,||,|PARTHEC INTERNATIONAL S.A.C.|,|0021|,||,||,||,||,||,| |
+||,| |,||,||,|FERNANDO VIDAL|,||,||,||,|FERNANDO VIDAL|,|0022|,||,||,||,||,||,| |
+||,| |,||,||,|GERMAN MAMANI|,||,||,||,|GERMAN MAMANI|,|0023|,||,||,||,||,||,| |
+||,| |,||,||,|MARIO FIGUEROA|,||,||,||,|MARIO FIGUEROA|,|0024|,||,||,||,||,||,| |
+||,| |,||,||,|GUSTAVO IBAÑEZ|,||,||,||,|GUSTAVO IBAÑEZ|,|0025|,||,||,||,||,||,| |
+||,| |,||,||,|RIGOBERTO ARTEZANO|,||,||,||,|RIGOBERTO ARTEZANO|,|0026|,||,||,||,||,||,| |
+||,| |,||,||,|CONTILATIN DEL PERU S.A.|,||,||,||,|CONTILATIN DEL PERU S.A.|,|0027|,||,||,||,||,||,| |
+||,| |,||,||,|VICTOR PRINCIPE|,||,||,||,|VICTOR PRINCIPE|,|0028|,||,||,||,||,||,| |
+||,| |,||,||,|OMAR AGUILAR|,||,||,||,|OMAR AGUILAR|,|0029|,||,||,||,||,||,| |
+||,| |,||,||,|SAN FERNANDO|,||,||,||,|SAN FERNANDO|,|0030|,||,||,||,||,||,| |
+||,| |,||,||,|AGRIBRANDS PURINA|,||,||,||,|AGRIBRANDS PURINA|,|0031|,||,||,||,||,||,| |
+||,| |,||,||,|CENTRO INDUSTRIAL Y COMERCIAL PORCINOS|,||,||,||,|CENTRO INDUSTRIAL Y COMERCIAL PORCINOS|,|0032|,||,||,||,||,||,| |
+||,| |,||,||,|STARVET S.A.C.|,||,||,||,|STARVET S.A.C.|,|0033|,||,||,||,||,||,| |
+||,| |,||,||,|BANG S.A.|,||,||,||,|BANG S.A.|,|0034|,||,||,||,||,||,| |
+||,| |,||,||,|ALICORP S.A.A.|,||,||,||,|ALICORP S.A.A.|,|0035|,||,||,||,||,||,| |
+||,| |,||,||,|JCM SOLUCIONES TECNOLOGICAS SAC.|,||,||,||,|JCM SOLUCIONES TECNOLOGICAS SAC.|,|0036|,||,||,||,||,||,| |
+||,| |,||,||,|VETERINARIA SAN MARTIN|,||,||,||,|VETERINARIA SAN MARTIN|,|0037|,||,||,||,||,||,| |
+||,| |,||,||,|MEDINA MATOS LILA NILDA|,||,||,||,|MEDINA MATOS LILA NILDA|,|0038|,||,||,||,||,||,| |
+||,| |,||,||,|CIA. MINERA AGRGADOS CALCAREOS S.A.|,||,||,||,|CIA. MINERA AGRGADOS CALCAREOS S.A.|,|0039|,||,||,||,||,||,| |
+||,| |,||,||,|SERVS.MECANICOS INDL. Y AVIC. E.R.I.L.|,||,||,||,|SERVS.MECANICOS INDL. Y AVIC. E.R.I.L.|,|0040|,||,||,||,||,||,| |
+||,| |,||,||,|ATAHUAMPAC PIC S.A.|,||,||,||,|ATAHUAMPAC PIC S.A.|,|0041|,||,||,||,||,||,| |
+||,| |,||,||,|NEXTEL|,||,||,||,|NEXTEL|,|0042|,||,||,||,||,||,| |
+||,| |,||,||,|CAMBISTA HECTOR|,||,||,||,|CAMBISTA HECTOR|,|0043|,||,||,||,||,||,| |
+||,| |,||,||,|BANCO BIF|,||,||,||,|BANCO BIF|,|0044|,||,||,||,||,||,| |
+||,| |,||,||,|EDILBERTO MARALES SEGURA|,||,||,||,|EDILBERTO MARALES SEGURA|,|0045|,||,||,||,||,||,| |
+||,| |,||,||,|NICOLAS PALOMINO|,||,||,||,|NICOLAS PALOMINO|,|0046|,||,||,||,||,||,| |
+||,| |,||,||,|SEDAPAL|,||,||,||,|SEDAPAL|,|0047|,||,||,||,||,||,| |
+||,| |,||,||,|ELMER NUÑEZ MALQUIN|,||,||,||,|ELMER NUÑEZ MALQUIN|,|0048|,||,||,||,||,||,| |
+||,| |,||,||,|HENRRY  CASTRO ( I )|,||,||,||,|HENRRY  CASTRO ( I )|,|0049|,||,||,||,||,||,| |
+||,| |,||,||,|HENRY  CASTRO ( II )|,||,||,||,|HENRY  CASTRO ( II )|,|0050|,||,||,||,||,||,| |
+||,| |,||,||,|SRA. ISABEL|,||,||,||,|SRA. ISABEL|,|0051|,||,||,||,||,||,| |
+||,| |,||,||,|SUNAT|,||,||,||,|SUNAT|,|0052|,||,||,||,||,||,| |
+||,| |,||,||,|CHUMPITAZ HUAPAYA  JULIO  EMILIO|,||,||,||,|CHUMPITAZ HUAPAYA  JULIO  EMILIO|,|0053|,||,||,||,||,||,| |
+||,| |,||,||,|CLARO DHTV|,||,||,||,|CLARO DHTV|,|0054|,||,||,||,||,||,| |
+||,| |,||,||,|TRANSPORTE NOLASCO|,||,||,||,|TRANSPORTE NOLASCO|,|0055|,||,||,||,||,||,| |
+||,| |,||,||,|ALVARO ESTRADA|,||,||,||,|ALVARO ESTRADA|,|0056|,||,||,||,||,||,| |
+||,| |,||,||,|CAJA CHICA STO. MARTIN SAC|,||,||,||,|CAJA CHICA STO. MARTIN SAC|,|0057|,||,||,||,||,||,| |
+||,| |,||,||,|CAMBISTA JESICA|,||,||,||,|CAMBISTA JESICA|,|0058|,||,||,||,||,||,| |
+||,| |,||,||,|CONCEPCION GARCIA|,||,||,||,|CONCEPCION GARCIA|,|0059|,||,||,||,||,||,| |
+||,| |,||,||,|CESAR CASTILLO RETAMOSO|,||,||,||,|CESAR CASTILLO RETAMOSO|,|0060|,||,||,||,||,||,| |
+||,| |,||,||,|MARIO CASTILLO RETAMOSO|,||,||,||,|MARIO CASTILLO RETAMOSO|,|0061|,||,||,||,||,||,| |
+||,| |,||,||,|EDELNOR|,||,||,||,|EDELNOR|,|0062|,||,||,||,||,||,| |
+||,| |,||,||,|TELEFONICA MOVISTAR|,||,||,||,|TELEFONICA MOVISTAR|,|0063|,||,||,||,||,||,| |
+||,| |,||,||,|DR. VICTOR  RODRIGUEZ|,||,||,||,|DR. VICTOR  RODRIGUEZ|,|0064|,||,||,||,||,||,| |
+||,| |,||,||,|OPERACIONES AMBIENTALES MARFRA S.A.C.|,||,||,||,|OPERACIONES AMBIENTALES MARFRA S.A.C.|,|0065|,||,||,||,||,||,| |
+||,| |,||,||,|SRA. AMELIA CORTEZ DE CORRO|,||,||,||,|SRA. AMELIA CORTEZ DE CORRO|,|0066|,||,||,||,||,||,| |
+||,| |,||,||,|WITTMAN CHAVEZ AGAMA|,||,||,||,|WITTMAN CHAVEZ AGAMA|,|0067|,||,||,||,||,||,| |
+||,| |,||,||,|DEISY CARRASCO MARTINEZ|,||,||,||,|DEISY CARRASCO MARTINEZ|,|0068|,||,||,||,||,||,| |
+||,| |,||,||,|MANUEL FLORES|,||,||,||,|MANUEL FLORES|,|0069|,||,||,||,||,||,| |
+||,| |,||,||,|CAMBISTA JAIME|,||,||,||,|CAMBISTA JAIME|,|0070|,||,||,||,||,||,| |
+||,| |,||,||,|FERRETERIA CASTAÑEDA|,||,||,||,|FERRETERIA CASTAÑEDA|,|0071|,||,||,||,||,||,| |
+||,| |,||,||,|CESAR CRUZADO|,||,||,||,|CESAR CRUZADO|,|0072|,||,||,||,||,||,| |
+||,| |,||,||,|ROGELIO VILCA|,||,||,||,|ROGELIO VILCA|,|0073|,||,||,||,||,||,| |
+||,| |,||,||,|RICARDO WINCHONLONG V|,||,||,||,|RICARDO WINCHONLONG V|,|0074|,||,||,||,||,||,| |
+||,| |,||,||,|WALTER PINO|,||,||,||,|WALTER PINO|,|0075|,||,||,||,||,||,| |
+||,| |,||,||,|DR. GIANCARLOS TOLENTINO|,||,||,||,|DR. GIANCARLOS TOLENTINO|,|0076|,||,||,||,||,||,| |
+||,| |,||,||,|HERBERT VARGAS P,|,||,||,||,|HERBERT VARGAS P,|,|0077|,||,||,||,||,||,| |
+||,| |,||,||,|HIPOLITO SALDAÑA MOSTACERO|,||,||,||,|HIPOLITO SALDAÑA MOSTACERO|,|0078|,||,||,||,||,||,| |
+||,| |,||,||,|BANCO CONTINENTAL|,||,||,||,|BANCO CONTINENTAL|,|0079|,||,||,||,||,||,| |
+||,| |,||,||,|CHEMIE SA|,||,||,||,|CHEMIE SA|,|0080|,||,||,||,||,||,| |
+||,| |,||,||,|GRUPO KEBIERA E.I.R.L.|,||,||,||,|GRUPO KEBIERA E.I.R.L.|,|0081|,||,||,||,||,||,| |
+||,| |,||,||,|DRA. VERONICA ZELADA|,||,||,||,|DRA. VERONICA ZELADA|,|0082|,||,||,||,||,||,| |
+||,| |,||,||,|ALFREDO VELASCO CINFUEGOS|,||,||,||,|ALFREDO VELASCO CINFUEGOS|,|0083|,||,||,||,||,||,| |
+||,| |,||,||,|MANUEL CHILO CAOTA|,||,||,||,|MANUEL CHILO CAOTA|,|0084|,||,||,||,||,||,| |
+||,| |,||,||,|HUGO ESPINOZA  S.|,||,||,||,|HUGO ESPINOZA  S.|,|0085|,||,||,||,||,||,| |
+||,| |,||,||,|REPRESENTACIONES  LINCENCIADOS|,||,||,||,|REPRESENTACIONES  LINCENCIADOS|,|0086|,||,||,||,||,||,| |
+||,| |,||,||,|MECANICA CHUYAS|,||,||,||,|MECANICA CHUYAS|,|0087|,||,||,||,||,||,| |
+||,| |,||,||,| WILLIAM VIDAL|,||,||,||,| WILLIAM VIDAL|,|0088|,||,||,||,||,||,| |
+||,| |,||,||,|DR. RAFAEL HIDALGO|,||,||,||,|DR. RAFAEL HIDALGO|,|0089|,||,||,||,||,||,| |
+||,| |,||,||,|MARTIN TORREJON|,||,||,||,|MARTIN TORREJON|,|0090|,||,||,||,||,||,| |
+||,| |,||,||,|VALERA ALTAMIRANO ROXANA|,||,||,||,|VALERA ALTAMIRANO ROXANA|,|0091|,||,||,||,||,||,| |
+||,| |,||,||,|LUIS ALBERTO QUIROZ ZENTENO|,||,||,||,|LUIS ALBERTO QUIROZ ZENTENO|,|0092|,||,||,||,||,||,| |
+||,| |,||,||,|GLORIA IMAN MECHATO|,||,||,||,|GLORIA IMAN MECHATO|,|0093|,||,||,||,||,||,| |
+||,| |,||,||,|MG GALEB|,||,||,||,|MG GALEB|,|0094|,||,||,||,||,||,| |
+||,| |,||,||,|MOLINOS NARANJITO E.I.R.L.|,||,||,||,|MOLINOS NARANJITO E.I.R.L.|,|0095|,||,||,||,||,||,| |
+||,| |,||,||,|MAXIMILIAN INVERSIONES S.A.|,||,||,||,|MAXIMILIAN INVERSIONES S.A.|,|0096|,||,||,||,||,||,| |
+||,| |,||,||,|VICENTE PALOMINO|,||,||,||,|VICENTE PALOMINO|,|0097|,||,||,||,||,||,| |
+||,| |,||,||,|EDSON CHAVEZ ESPINOZA|,||,||,||,|EDSON CHAVEZ ESPINOZA|,|0098|,||,||,||,||,||,| |
+||,| |,||,||,| ZOILA CANO OCAÑA|,||,||,||,| ZOILA CANO OCAÑA|,|0099|,||,||,||,||,||,| |
+||,| |,||,||,|DARWIN YARLEQUE CHAVEZ|,||,||,||,|DARWIN YARLEQUE CHAVEZ|,|0100|,||,||,||,||,||,| |
+||,| |,||,||,| INDUSTRIA ZENTENO SAC.|,||,||,||,| INDUSTRIA ZENTENO SAC.|,|0101|,||,||,||,||,||,| |
+||,| |,||,||,|ASOCIACION PERUANA DE PORCICULTORES|,||,||,||,|ASOCIACION PERUANA DE PORCICULTORES|,|0102|,||,||,||,||,||,| |
+||,| |,||,||,|CPPQ S.A.|,||,||,||,|CPPQ S.A.|,|0103|,||,||,||,||,||,| |
+||,| |,||,||,|PONEDORAS SAC.|,||,||,||,|PONEDORAS SAC.|,|0104|,||,||,||,||,||,| |
+||,| |,||,||,|PERCY SOTELO|,||,||,||,|PERCY SOTELO|,|0105|,||,||,||,||,||,| |
+||,| |,||,||,|GILBERTO SANCHEZ QUIVIO|,||,||,||,|GILBERTO SANCHEZ QUIVIO|,|0106|,||,||,||,||,||,| |
+||,| |,||,||,|DIEGO SANCHEZ YARO|,||,||,||,|DIEGO SANCHEZ YARO|,|0107|,||,||,||,||,||,| |
+||,| |,||,||,|EMILIO JULCA|,||,||,||,|EMILIO JULCA|,|0108|,||,||,||,||,||,| |
+||,| |,||,||,|GUILLERMO SERNAQUE|,||,||,||,|GUILLERMO SERNAQUE|,|0109|,||,||,||,||,||,| |
+||,| |,||,||,|SRA. LILIANA|,||,||,||,|SRA. LILIANA|,|0110|,||,||,||,||,||,| |
+||,| |,||,||,|JCM SOLUCIONES TECNOLOGICAS SAC.|,||,||,||,|JCM SOLUCIONES TECNOLOGICAS SAC.|,|0111|,||,||,||,||,||,| |
+||,| |,||,||,|BANCO SCOTIABANK|,||,||,||,|BANCO SCOTIABANK|,|0112|,||,||,||,||,||,| |
+||,| |,||,||,|FRIGORIFICO LA COLONIAL|,||,||,||,|FRIGORIFICO LA COLONIAL|,|0113|,||,||,||,||,||,| |
+||,| |,||,||,|CONSTRUCIONES CASTAÑEDA E.I.R.L|,||,||,||,|CONSTRUCIONES CASTAÑEDA E.I.R.L|,|0114|,||,||,||,||,||,| |
+|42|,|1|,|11|,|0001|,|CHRISTIAN|,|DEL PINO|,|RONDON|,|42099116|,|CHRISTIAN DEL PINO RONDON|,|0115|,||,||,||,||,||,| |
+|42|,|1|,|02|,|0013|,|CHRISTIAN WALTER|,|DEL PINO|,|RONDON|,|42099116|,|CHRISTIAN WALTER DEL PINO RONDON|,|0116|,|URB. LA MERCED MANZANA Z LOTE 6|,||,||,||,|140704|,|1|
+|42|,|0|,|1|,|1102|,|LOS MOLINOS DEL MARQUES S.R.L.|,||,||,|20508996919|,|LOS MOLINOS DEL MARQUES S.R.L.|,|0117|,|CALLE EL ALAMO 289|,||,||,||,|140130|,|6|
